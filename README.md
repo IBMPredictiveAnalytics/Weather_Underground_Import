@@ -40,13 +40,13 @@ Requirements
 ----
 - IBM SPSS Modeler v16 or later
 - ‘R Essentials for SPSS Modeler’ plugin: [Download here][8]
- -  R 2.15.x or R 3.1
+-  R 2.15.x or R 3.1 ([Use this link][8] to find the correct version)
 
 ---
 Installation instructions
 ----
 1. Download the extension: [Download][3] 
-2. Close IBM SPSS Modeler. Save the .cfe file in the CDB directory, located by default on Windows in "C:\ProgramData\IBM\SPSS\Modeler\16\CDB" or under your IBM SPSS Modeler installation directory.
+2. Close IBM SPSS Modeler. Save the .cfe file in the CDB directory, located by default on Windows in "C:\ProgramData\IBM\SPSS\Modeler\version\CDB" or under your IBM SPSS Modeler installation directory.
 3. Restart IBM SPSS Modeler, the node will now appear in the Model palette.
 
 ---
@@ -60,7 +60,7 @@ The R packages will be installed the first time the node is used as long as an I
 Documentation and samples
 ----
 - Find a PDF with the documentation of this extension in the [Documentation][5] directory
-- There is a sample available in the [example][6] directory
+- There is a sample available in the [Example][6] directory
 
 
 ---
