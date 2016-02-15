@@ -9,7 +9,7 @@ This extension imports weather data for a vector of valid 3 or 4 digit Airport c
 
 This extension reads in a column of location from data in SPSS Modeler and accepts a date to import weather observations for.  Either one specific data field or the full last record on the given date can be imported.
 
-![Dialog](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Watson-Auto-Translate/master/Screenshot/Illustration1.png)
+![Dialog](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Weather_Underground_Import/master/Screenshot/Dialog.png)
 ---
 ##### Output:
 
@@ -32,16 +32,15 @@ The following fields will be returned if the Last Record is selected.
 - DateTime
 
 
-![Output](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Watson-Auto-Translate/master/Screenshot/Illustration2.png)
+![Output](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Weather_Underground_Import/master/Screenshot/Output.png)
 
-![Stream](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Watson-Auto-Translate/master/Screenshot/Illustration3.png)
+![Stream](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Weather_Underground_Import/master/Screenshot/Stream.png)
 ---
 Requirements
 ----
 - IBM SPSS Modeler v16 or later
-- ‘R Essentials for SPSS Modeler’ plugin: [Download here][7]
+- ‘R Essentials for SPSS Modeler’ plugin: [Download here][8]
  -  R 2.15.x or R 3.1
-- A Bluemix account with Watson Language Translation Service activated
 
 ---
 Installation instructions
@@ -78,9 +77,9 @@ Contributors
 
 
 [1]: http://www.apache.org/licenses/LICENSE-2.0.html
-[3]: 
-[4]:https://cran.r-project.org/web/packages/plyr/
-[5]:
-[6]:
+[3]: https://github.com/IBMPredictiveAnalytics/Weather_Underground_Import/blob/master/Source%20code/WeatherUndergroundImport.cfe
+[4]: https://cran.r-project.org/web/packages/plyr/
+[5]: https://github.com/IBMPredictiveAnalytics/Weather_Underground_Import/tree/master/Documentation
+[6]: https://github.com/IBMPredictiveAnalytics/Weather_Underground_Import/tree/master/Example
 [8]: https://developer.ibm.com/predictiveanalytics/downloads/
 [9]: https://cran.r-project.org/web/packages/weatherData/
