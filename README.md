@@ -7,13 +7,13 @@ This extension imports weather data for a vector of valid 3 or 4 digit Airport c
 
 ##### User Interface:
 
-This extension reads in a column of location from data in SPSS Modeler and accepts a date to import weather observations for.  Either one specific data field or the full last record on the given date can be imported.
+This extension reads in a column of location from data in SPSS Modeler and accepts a date to import weather observations for.  You have the option to return the last record on file for the date or select the record that is the minimum or maximum for each of the weather features. For example you can return the records for a date that contain the minimum temperature for the date at each location. 
 
 ![Dialog](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Weather_Underground_Import/master/Screenshot/Dialog.png)
 ---
 ##### Output:
 
-The following fields will be returned if the Last Record is selected.
+The following fields will be returned when the node is executed:
 
 - Time
 - Temperature
