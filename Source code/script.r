@@ -50,6 +50,7 @@ IsDateInvalid <- function (date, opt_warnings=TRUE) {
   return(0) #is okay
 }
 
+
 # Try to read an URL address
 readUrl <- function(final_url) {
   out <- tryCatch ({
@@ -166,9 +167,9 @@ getData <- function (station_id, date,
     return(paste("Unable to build a valid URL \n Date format Invalid \n Input date should be within quotes \n and of the form 'YYYY-MM-DD' \n\n", date))
   } 
   for (i in 1:length(station_id)) {
-    single_day_df <- getWeather(station_id[i], date, station_type = "airportcode")
+    single_day_df <- getWeather(station_id[i], date[i], station_type = "airportcode")
     if (is.null(single_day_df)) {
-      single_day_df <- getWeather(station_id[i], date, station_type = "id")
+      single_day_df <- getWeather(station_id[i], date[i], station_type = "id")
     }
     if (is.null(single_day_df)) {
       for (j in 1:15) {
@@ -229,12 +230,12 @@ getData <- function (station_id, date,
 }
 
 # Call to the function "getData" 
-theDate <- "%%day%%"
-print(theDate)
 
+theDate <- c()
 station <- c()
 for (i in 1:nrow(modelerData)) {
   station <- c(station,as.character(modelerData$%%location%%[i]))
+  theDate <- c(theDate,as.character(modelerData$%%recorddate%%[i]))
 }
 print(station)
 
