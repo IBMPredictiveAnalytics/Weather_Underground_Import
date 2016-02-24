@@ -1,7 +1,9 @@
 # Weather Underground Import
 ##### Description:
 
-This extension imports weather data for a vector of valid 3 or 4 digit Airport codes or a valid Weather Station ID (examples: "BUF", "ORD", "VABB" for Mumbai).    The extension will return a record of weather information for a given date at each location. 
+This extension imports weather data for a vector of valid 4 digit Airport codes or a valid Weather Station ID (examples: "KBUF", "KORD", "VABB" for Mumbai).    The extension will return a record of weather information for a given date at each location. 
+
+Note: Visit ([Weather Underground](http://www.wunderground.com/)) to find the correct Airport code or Station ID if needed.
 
 ---
 
@@ -46,7 +48,7 @@ Requirements
 Installation instructions
 ----
 1. Download the extension: [Download][3] 
-2. Close IBM SPSS Modeler. Save the .cfe file in the CDB directory, located by default on Windows in "C:\ProgramData\IBM\SPSS\Modeler\version\CDB" or under your IBM SPSS Modeler installation directory.
+2. Close IBM SPSS Modeler. Save the .cfe file in the CDB directory, located by default on Windows in "C:\ProgramData\IBM\SPSS\Modeler\version\CDB" or under your IBM SPSS Modeler installation directory.  Note: this is a hidden directory, so you need to type it in manually or copy/paste the file path.
 3. Restart IBM SPSS Modeler, the node will now appear in the Model palette.
 
 ---
