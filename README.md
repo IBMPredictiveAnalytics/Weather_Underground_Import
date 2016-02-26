@@ -1,9 +1,9 @@
 # Weather Underground Import
 ##### Description:
 
-This extension imports weather data for a vector of valid 4 digit Airport codes or a valid Weather Station ID (examples: "KBUF", "KORD", "VABB" for Mumbai).    The extension will return a record of weather information for a given date at each location. 
+This extension imports weather data for a vector of valid 4 digit ICAO Airport codes or a valid Weather Station ID (examples: "KBUF", "KORD", "VABB" for Mumbai).    The extension will return a record of weather information for a given date at each location. 
 
-Note: Visit [Weather Underground](http://www.wunderground.com/) to find the correct Airport code or Station ID if needed.
+Note: Visit [Weather Underground](http://www.wunderground.com/) to find the correct Airport code or Station ID if needed.  Wikipedia maintains a list of ICAO Airport codes [here.](https://en.wikipedia.org/wiki/International_Civil_Aviation_Organization_airport_code#Prefixes)
 
 ---
 
